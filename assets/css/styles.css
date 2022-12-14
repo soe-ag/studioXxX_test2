@@ -1,0 +1,264 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.c-section {
+  width: 100%;
+  padding: 50px;
+  display: relative;
+}
+
+.c-section__block {
+  position: relative;
+}
+
+.c-section__text {
+  position: relative;
+  color: #000;
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  line-height: 90px;
+  z-index: 10;
+  text-align: right;
+}
+
+.c-section__text2 {
+  position: relative;
+  color: #000;
+  font-size: 65px;
+  font-weight: 900;
+  line-height: 65px;
+  z-index: 10;
+}
+
+.c-section__text3 {
+  position: absolute;
+  top: 662px;
+  left: 215px;
+  color: #000;
+  font-size: 154px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  line-height: 90px;
+  z-index: 10;
+}
+
+.c-section__block {
+  padding: 50px;
+  background: linear-gradient(-45deg, rgba(200, 14, 132, 0.2) 0%, rgba(105, 66, 162, 0.2) 40%, rgba(8, 119, 191, 0.2) 100%);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-bottom: 50px;
+}
+
+.c-section__block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wordcloud {
+  padding: 30px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.animated {
+  background: linear-gradient(45deg, #c80e84 0%, #6942a2 50%, #0877bf 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.animated:before {
+  content: "XxX";
+  -webkit-animation: topToBottom 1.5s ease-in-out 1s 3;
+          animation: topToBottom 1.5s ease-in-out 1s 3;
+}
+
+@-webkit-keyframes topToBottom {
+  0% {
+    content: "XxX";
+  }
+  25% {
+    content: "creative";
+  }
+  35% {
+    content: "awesome";
+  }
+  45% {
+    content: "crazy";
+  }
+  50% {
+    content: "originative";
+  }
+  60% {
+    content: "cool";
+  }
+  70% {
+    content: "imaginative";
+  }
+  80% {
+    content: "inspired";
+  }
+  90% {
+    content: "anything";
+  }
+  100% {
+    content: "XxX";
+  }
+}
+
+@keyframes topToBottom {
+  0% {
+    content: "XxX";
+  }
+  25% {
+    content: "creative";
+  }
+  35% {
+    content: "awesome";
+  }
+  45% {
+    content: "crazy";
+  }
+  50% {
+    content: "originative";
+  }
+  60% {
+    content: "cool";
+  }
+  70% {
+    content: "imaginative";
+  }
+  80% {
+    content: "inspired";
+  }
+  90% {
+    content: "anything";
+  }
+  100% {
+    content: "XxX";
+  }
+}
+
+.animated2 {
+  background: linear-gradient(45deg, #0877bf 0%, #6942a2 50%, #c80e84 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.animated2:before {
+  content: "???";
+  -webkit-animation: topToBottom 1.5s ease-in-out 1s 2;
+          animation: topToBottom 1.5s ease-in-out 1s 2;
+}
+
+@keyframes topToBottom {
+  0% {
+    content: "fantastic";
+  }
+  15% {
+    content: "visionary";
+  }
+  25% {
+    content: "creative";
+  }
+  35% {
+    content: "awesome";
+  }
+  45% {
+    content: "crazy";
+  }
+  50% {
+    content: "originative";
+  }
+  60% {
+    content: "cool";
+  }
+  70% {
+    content: "imaginative";
+  }
+  80% {
+    content: "inspired";
+  }
+  90% {
+    content: "anything";
+  }
+  100% {
+    content: "generative";
+  }
+}
+
+.animated3 {
+  background: linear-gradient(45deg, #0877bf 0%, #6942a2 50%, #c80e84 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.animated3:before {
+  content: "";
+  -webkit-animation: topToBottom 1.5s ease-in-out 1s 2;
+          animation: topToBottom 1.5s ease-in-out 1s 2;
+}
+
+@keyframes topToBottom {
+  0% {
+    content: "fantastic";
+  }
+  15% {
+    content: "visionary";
+  }
+  25% {
+    content: "creative";
+  }
+  35% {
+    content: "awesome";
+  }
+  45% {
+    content: "crazy";
+  }
+  50% {
+    content: "originative";
+  }
+  60% {
+    content: "cool";
+  }
+  70% {
+    content: "imaginative";
+  }
+  80% {
+    content: "inspired";
+  }
+  90% {
+    content: "anything";
+  }
+  100% {
+    content: "generative";
+  }
+}
